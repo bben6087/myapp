@@ -2,6 +2,12 @@ doctype html
 html
   head
     title= title
+    link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T", crossorigin="anonymous")
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
-    block content
+    .row
+      .col-md-4.col-sm-6.xs-12
+      .col-md-4.col-sm-6.xs-12
+        block content
+      .col-md-4.col-sm-6.xs-12
